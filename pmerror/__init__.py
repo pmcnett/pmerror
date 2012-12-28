@@ -6,4 +6,4 @@ otherwise unhandled errors.
 
 For more information see https://github.com/pmcnett/pmerror
 """
-__version__ = "0.1.1"
+__version__ = "0.1.3"
