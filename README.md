@@ -43,5 +43,7 @@ from pmerror.app import ErrorAppMixin
 class ErrorHandlingApp(dApp, ErrorAppMixin): pass
 
 app = ErrorHandlingApp(MainFormClass=None)
-app.HandleErrors = True
+app.PMError_HandleErrors = True
 ```
+The default is for PMError_HandleErrors to be False at development time and True at runtime (if "frozen" in an executable).
+
