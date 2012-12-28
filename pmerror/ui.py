@@ -44,7 +44,7 @@ help. When you click 'close', the application will exit. Thank you.</p>
 """ % self.ErrorData
 
         self.edtIntroText = dabo.ui.dHtmlBox(self, Value=txt, Height=200,
-                BackColor=self.BackColor)
+                                             BackColor=self.BackColor)
         vs.append(self.edtIntroText, 1, "expand", border=b1)
 
         hs = dabo.ui.dSizer("h")
