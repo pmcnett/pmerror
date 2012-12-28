@@ -76,7 +76,6 @@ if __name__ == "__main__":
     import datetime
     from dabo.dApp import dApp
     def errorHandler(exc_type, exc_obj, exc_tb):
-        print str(exc_type)
         tb_msg = ''.join(traceback.format_exception(exc_type, exc_obj, exc_tb))
         error_data = {"timestamp": datetime.datetime.utcnow(),
                       "platform": platform.platform(),

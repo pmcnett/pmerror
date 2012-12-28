@@ -82,7 +82,6 @@ class ErrorAppMixin(object):
         filename = "error_%s.entry" % time.time()
         open(os.path.join(getUserAppDataDirectory(self.getAppInfo("appShortName")),
                           filename), "wb").write(xml)
-        print app_data_dir
 
     def beforeHandleError(self, error_data):
         """
