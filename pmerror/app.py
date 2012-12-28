@@ -91,8 +91,8 @@ class ErrorAppMixin(object):
         If you want to keep the default action from happening (ignoring the
         error completely(!)), return anything but None.
 
-        A typical use for modifying the error_data  would be to fill in the 
-        appLicense field.
+        A typical use for modifying the error_data would be to fill in the 
+        app_license field.
         """
         pass
 
